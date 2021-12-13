@@ -37,12 +37,6 @@ export default function Application(props) {
       });
   }, []);
 
-
-  // dailyAppointments.map(appointment => (
-  //   <Appointment
-  //     key={appointment.id}
-  //     {...appointment} />
-  // ))
   const schedule = dailyAppointments.map((appointment) => {
     const interview = getInterview(state, appointment.interview);
     return (

@@ -1,23 +1,62 @@
 # Interview Scheduler
 
+This is a single-page app built on React.js that allows users to book, edit or cancel interviews for each day of the week (Monday - Friday).
+
+## Screenshots
+
+![ ]()
+![ ]()
+
 ## Setup
 
-Install dependencies with `npm install`.
+### To Run App Locally
 
-## Running Webpack Development Server
+1. Fork this repository & then clone the forked repository.
+2. Go to the [scheduler-api](https://github.com/belalelmi/scheduler-api) that contains the database and fork it, then clone the fork of that repository.
+3. Install dependencies in both folders (scheduler & shceduler-api) using the `npm install` command.
+4. Open two terminals, one for scheduler and the second for scheduler-api.
+5. Run the both servers using the `npm start` command.
+6. Go to <http://localhost:8000/> in your browser and book an interview :)
+
+### Running Webpack Development Server
+
+Install dependencies with `npm install`.
 
 ```sh
 npm start
 ```
 
-## Running Jest Test Framework
+### Running Jest Test Framework
 
 ```sh
 npm test
 ```
 
-## Running Storybook Visual Testbed
+### Running Storybook Visual Testbed
 
 ```sh
 npm run storybook
+```
+
+### Dependencies
+
+```
+Axios
+Classnames
+React
+React-dom
+React-scripts
+Babel/core
+Storybook/addon-actions
+Storybook/addon-backgrounds
+Storybook/addon-links
+Storybook/addons
+Storybook/react
+Testing-library/jest-dom
+Testing-library/react
+Testing-library/react-hooks
+Babel-loader
+Node-sass
+Prop-types
+React-test-renderer
 ```

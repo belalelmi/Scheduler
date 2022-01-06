@@ -2,7 +2,7 @@
 
 This is a single-page app built on React.js that allows users to book, edit or cancel interviews for each day of the week (Monday - Friday). Application uses a combination of a concise API with a WebSocket server to build a realtime experience.
 
-The Scheduler client application created using Create React App. Express is the basis for the Scheduler API server application.
+The Scheduler client application was created using Create React App. Express.js is the basis for the Scheduler API server application.
 
 ## Screenshots
 
@@ -45,7 +45,7 @@ npm run storybook
 
 **Front-End:** React, Axios, JSX, HTML, SASS
 
-**Back-End:** Express, Node.js, PostgreSQL
+**Back-End:** Express, Node.js, PostgreSQL, WebSocket
 
 **Testing:** Cypress, Storybook, Jest, React Testing Library, Webpack Dev Server
 
@@ -70,4 +70,5 @@ Testing-library/jest-dom
 Testing-library/react
 Testing-library/react-hooks
 Node-sass
+WebSocket
 ```

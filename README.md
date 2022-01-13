@@ -1,5 +1,7 @@
 # Interview Scheduler
 
+This app is live: [HERE](https://bhe-scheduler.netlify.app/)
+
 This is a single-page app built on React.js that allows users to book, edit or cancel interviews for each day of the week (Monday - Friday). Application uses a combination of a concise API with a WebSocket server to build a realtime experience.
 
 Express.js is the basis for the Scheduler API server application.
